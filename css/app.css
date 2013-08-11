@@ -28,15 +28,34 @@
 	left: 0;
 	right: 0;
 	text-indent: -9999px;
+	z-index: 50;
 
 	border: 1px solid #000;
 	box-sizing: border-box;
 }
 
-.key-A { top: 0; }
-.key-B { top: 14%; }
-.key-C { top: 28%; }
-.key-D { top: 42%; }
-.key-E { top: 56%; }
-.key-F { top: 70%; }
-.key-G { top: 84%; }
+.key-C { top: 0; }
+.key-D { top: 14%; }
+.key-E { top: 28%; }
+.key-F { top: 42%; }
+.key-G { top: 56%; }
+.key-A { top: 70%; }
+.key-B { top: 84%; }
+
+.key-black {
+	height: 10%;
+	position: absolute;
+	top: 0;
+	left: 33%;
+	right: 0;
+	text-indent: -9999px;
+
+	background: #ff98dc;
+	z-index: 100;
+}
+
+.key-Cs { top: 9%; }
+.key-Ds { top: 23%; }
+.key-Fs { top: 51%; }
+.key-Gs { top: 65%; }
+.key-As { top: 79%; }
