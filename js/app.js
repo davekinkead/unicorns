@@ -3,9 +3,10 @@
 function fartCtrl($scope) {
 	
 	$scope.fart = function(note) {
-		console.log('farting');
+		console.log('farting ' + note);
 		// bind argument to file here
-		var audio = document.getElementById("test");
+		var rand = Math.floor(Math.random()*3)+1;
+		var audio = document.getElementById("fart"+rand);
     audio.load();
 		audio.play();
 	}

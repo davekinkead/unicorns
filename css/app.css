@@ -59,12 +59,19 @@
 
 }
 
+.key-Cs { top: 79%; }
+.key-Ds { top: 23%; }
+.key-Fs { top: 65%; }
+.key-Gs { top: 36%; }
+.key-Bb { top: 8%; }
+.key-Ab { top: 100%; }
+/*
 .key-Cs { top: 9%; }
 .key-Ds { top: 23%; }
 .key-Fs { top: 51%; }
 .key-Gs { top: 65%; }
 .key-As { top: 79%; }
-
+*/
 .key.active {
 	-webkit-box-shadow: inset 6px -6px 8px #c4b7c0;
 	-moz-box-shadow: inset 6px -6px 8px #c4b7c0;
