@@ -9,13 +9,16 @@
 
 .piano .octave {
 	position: absolute;
-	top: 0;
-	bottom: 0;
+	top: 1px;
+	bottom: 1px;
 	left: 0;
 	right: 0;
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
 }
 
 .key {
@@ -31,15 +34,9 @@
 }
 
 .key-A { top: 0; }
-
 .key-B { top: 14%; }
-
 .key-C { top: 28%; }
-
 .key-D { top: 42%; }
-
 .key-E { top: 56%; }
-
 .key-F { top: 70%; }
-
 .key-G { top: 84%; }
