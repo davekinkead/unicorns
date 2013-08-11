@@ -17,8 +17,8 @@
 	padding: 0;
 	list-style-type: none;
 
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
 }
 
 .key {
@@ -30,7 +30,7 @@
 	text-indent: -9999px;
 	z-index: 50;
 
-	border: 1px solid #000;
+	border: 1px solid #CCC;
 	box-sizing: border-box;
 }
 
@@ -52,6 +52,11 @@
 
 	background: #ff98dc;
 	z-index: 100;
+
+	-webkit-box-shadow: inset 7px -6px 16px 8px #c476aa;
+	-moz-box-shadow: inset 7px -6px 16px 8px #c476aa;
+	box-shadow: inset 7px -6px 16px 8px #c476aa;
+
 }
 
 .key-Cs { top: 9%; }
@@ -59,3 +64,16 @@
 .key-Fs { top: 51%; }
 .key-Gs { top: 65%; }
 .key-As { top: 79%; }
+
+.key.active {
+	-webkit-box-shadow: inset 6px -6px 8px #c4b7c0;
+	-moz-box-shadow: inset 6px -6px 8px #c4b7c0;
+	box-shadow: inset 6px -6px 8px #c4b7c0;
+}
+
+.key-black.active {
+	-webkit-box-shadow: inset -7px 6px 16px 8px #c476aa;
+	-moz-box-shadow: inset -7px 6px 16px 8px #c476aa;
+	box-shadow: inset -7px 6px 16px 8px #c476aa;
+
+}
