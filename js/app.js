@@ -1,10 +1,11 @@
-use 'strict';
+'use strict';
 
 function fartCtrl($scope) {
 	
-	var $scope.fart = function(note) {
+	$scope.fart = function(note) {
+		console.log('farting');
 		// bind argument to file here
-		var audio = note;
+		var audio = 'audio/test.ogg';
 		audio.play();
 	}
 }
